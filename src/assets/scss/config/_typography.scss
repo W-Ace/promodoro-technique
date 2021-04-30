@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+$base-line-height: 1.5;
+
+//font
+$font-title: helvetica neue, regular;
+$font-Neue: helvetica neue, regular;
+$font-times: times, regular;
+
+html {
+  font-size: 16px !important;
+  font-family: 'Lato', SC, Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Heiti SC, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  line-height: $base-line-height;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+em, i {
+  font-style: normal;
+}
+
+input[type=text], select, textarea {
+  border: none;
+  -webkit-appearance: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+#app {
+  height: 100%;
+}

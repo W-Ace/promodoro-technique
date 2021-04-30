@@ -1,0 +1,35 @@
+$width--miniphone: 374px;
+$width--phone: 576px;
+$width--minipad: 768px;
+$width--pad: 992px;
+$width--minipc: 1200px;
+
+@mixin mediaquery_miniphone {
+  @media all and (max-width: $width--miniphone) {
+    @content;
+  }
+}
+
+@mixin mediaquery_phone {
+  @media all and (max-width: $width--phone) {
+    @content;
+  }
+}
+
+@mixin mediaquery_minipad {
+  @media all and (max-width: $width--minipad) {
+    @content;
+  }
+}
+
+@mixin mediaquery_pad {
+  @media all and (max-width: $width--pad) {
+    @content;
+  }
+}
+
+@mixin mediaquery_pc {
+  @media all and (max-width: $width--minipc) {
+    @content;
+  }
+}

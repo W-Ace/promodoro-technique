@@ -1,0 +1,19 @@
+@mixin lato-thin {
+  font-weight: 100;
+}
+
+@mixin lato-light {
+  font-weight: 300;
+}
+
+@mixin lato-regular {
+  font-weight: 400;
+}
+
+@mixin lato-bold {
+  font-weight: 700;
+}
+
+@mixin lato-black {
+  font-weight: 900;
+}

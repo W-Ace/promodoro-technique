@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`menu Click analyticsReport of menuItem will add class of active on it 1`] = `
+<aside class="sidebar">
+  <ul class="menu">
+    <li class="menu-item" id="new-task"><img class="img" src="" alt="new-task"></li>
+    <li class="menu-item" id="task-lists"><img class="img" src="" alt="task-lists"></li>
+    <li class="menu-item active" id="analytics-report"><img class="img" src="" alt="analytics-report"></li>
+    <li class="menu-item" id="ring-tone"><img class="img" src="" alt="ring-tone"></li>
+  </ul>
+  <analytics-report-stub></analytics-report-stub>
+</aside>
+`;
+
+exports[`menu Click newTask of menuItem will add class of active on it 1`] = `
+<aside class="sidebar">
+  <ul class="menu">
+    <li class="menu-item active" id="new-task"><img class="img" src="" alt="new-task"></li>
+    <li class="menu-item" id="task-lists"><img class="img" src="" alt="task-lists"></li>
+    <li class="menu-item" id="analytics-report"><img class="img" src="" alt="analytics-report"></li>
+    <li class="menu-item" id="ring-tone"><img class="img" src="" alt="ring-tone"></li>
+  </ul>
+  <new-task-stub></new-task-stub>
+</aside>
+`;
+
+exports[`menu Click ringTone of menuItem will add class of active on it 1`] = `
+<aside class="sidebar">
+  <ul class="menu">
+    <li class="menu-item" id="new-task"><img class="img" src="" alt="new-task"></li>
+    <li class="menu-item" id="task-lists"><img class="img" src="" alt="task-lists"></li>
+    <li class="menu-item" id="analytics-report"><img class="img" src="" alt="analytics-report"></li>
+    <li class="menu-item active" id="ring-tone"><img class="img" src="" alt="ring-tone"></li>
+  </ul>
+  <ring-tone-stub></ring-tone-stub>
+</aside>
+`;
+
+exports[`menu Click taskLists of menuItem will add class of active on it 1`] = `
+<aside class="sidebar">
+  <ul class="menu">
+    <li class="menu-item" id="new-task"><img class="img" src="" alt="new-task"></li>
+    <li class="menu-item active" id="task-lists"><img class="img" src="" alt="task-lists"></li>
+    <li class="menu-item" id="analytics-report"><img class="img" src="" alt="analytics-report"></li>
+    <li class="menu-item" id="ring-tone"><img class="img" src="" alt="ring-tone"></li>
+  </ul>
+  <task-lists-stub></task-lists-stub>
+</aside>
+`;
